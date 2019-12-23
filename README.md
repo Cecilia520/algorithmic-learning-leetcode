@@ -1,5 +1,5 @@
 ### algorithmic-learning-leetcode
-These are related learning algorithm questions I learned and practiced.
+These are related learning algorithm questions we learned and practiced.
 ### 与算法思想相关算法题
 - 双指针
 - 排序
