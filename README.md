@@ -22,3 +22,5 @@ These are related learning algorithm questions I learned and practiced.
 本项目分成多个分支，每个分支包括多种语言针对类型的算法题进行实现。
 目前主要有`Python`和`Java`两个版本的分支实现(其中cecilia-python是自己的分支)，后期会继续更新，有兴趣的的朋友可以自行创建分支进行`提交`和`issue`。
 主要目的是**相互学习**、**相互沟通**、**相互督促**地进行学习一些算法题。有兴趣的朋友们，一起`Let it Go`！！！
+
+> 算法类型不仅仅局限于上面所列举的一些，如有朋友有其他的类型的比较有价值的题目，也可以自行扩展和添加。
