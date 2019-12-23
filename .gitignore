@@ -3,6 +3,15 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+#idea系统文件
+.idea
+.idea/encodings.xml
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
+.idea/workspace.xml
+.idea/algorithmic-learning-leetcode.iml
+
 # C extensions
 *.so
 
