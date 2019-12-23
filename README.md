@@ -1,2 +1,20 @@
-# algorithmic-learning-leetcode
+### algorithmic-learning-leetcode
 These are related learning algorithm questions I learned and practiced.
+### 与算法思想相关算法题
+- 双指针
+- 排序
+- 贪心思想
+- 二分查找
+- 分治
+- 搜索
+- 动态规划
+- 数学
+### 与数据结构相关的算法题
+- 链表
+- 树
+- 栈和队列
+- 哈希表
+- 字符串
+- 数组与矩阵
+- 图
+- 位运算
