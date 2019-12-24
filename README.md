@@ -1,6 +1,7 @@
-### algorithmic-learning-leetcode
-These are related learning algorithm questions I learned and practiced.
-### 与算法思想相关算法题
+### cecilia-python分支
+这个分支主要是使用`python语言`来实现相关算法的。
+
+### ✏与算法思想相关算法题
 - 双指针
 - 排序
 - 贪心思想
@@ -9,7 +10,7 @@ These are related learning algorithm questions I learned and practiced.
 - 搜索
 - 动态规划
 - 数学
-### 与数据结构相关的算法题
+### 🎨与数据结构相关的算法题
 - 链表
 - 树
 - 栈和队列
