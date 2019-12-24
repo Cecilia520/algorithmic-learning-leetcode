@@ -1,4 +1,4 @@
-### algorithmic-learning-leetcode
+### ✍algorithmic-learning-leetcode
 These are related learning algorithm questions I learned and practiced.📚😄
 ### ✏与算法思想相关算法题
 - 双指针
@@ -24,4 +24,9 @@ These are related learning algorithm questions I learned and practiced.📚😄
 - 主要目的是**相互学习**、**相互沟通**、**相互督促**地进行学习一些算法题。有兴趣的朋友们，一起`Let it Go`！！！😀
 - **其中提交的内容不仅仅包括代码**，**还可以包括`学习笔记`**，最好是`Markdown`形式的。这主要是便于自己留下学习记录。
 
-> 算法类型不仅仅局限于上面所列举的一些，如有朋友有其他的类型的比较有价值的题目，也可以自行扩展和添加。
+### 注意事项
+- 创建分支时，注意分支名称形式：`账号名-想要使用的语言`，比如`cecilia-python`；
+- 提交时，请检查一些不必要的文件不需要上传，比如系统文件，以保证项目的纯净性；
+- 代码规范性也请尽可能地遵守，保证大家一起优雅地敲代码；😀
+
+> **算法类型不仅仅局限于上面所列举的一些，如有朋友有其他的类型的比较有价值的题目，也可以自行扩展和添加。**🎨✍💯
