@@ -25,3 +25,15 @@
 #### 实际应用
 - 求最小生成树的Prim算法和Kruskal算法都是漂亮的贪心算法。
 - 贪心算法和很多的智能算法一起结合使用，比单纯的贪心算法更靠近了最优解。例如遗传算法，模拟退火算法。
+#### 题型
+- [分发饼干](https://leetcode-cn.com/problems/assign-cookies/description/)
+- [无重叠空间](https://leetcode-cn.com/problems/non-overlapping-intervals/description/)
+- [用最少数量的箭引爆气球](https://leetcode-cn.com/problems/minimum-number-of-arrows-to-burst-balloons/description/)
+- [根据身高重建队列](https://leetcode-cn.com/problems/queue-reconstruction-by-height/description/)
+- [买卖股票的最佳时机](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/description/)
+- [买卖股票的最佳时机 II](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/description/)
+- [种花问题](https://leetcode-cn.com/problems/can-place-flowers/description/)
+- [判断是否是子序列](https://leetcode-cn.com/problems/is-subsequence/description/)
+- [修改一个数成为非递减数组](https://leetcode-cn.com/problems/non-decreasing-array/description/)
+- [子数组最大的和](https://leetcode-cn.com/problems/maximum-subarray/description/)
+- [分隔字符串使同种字符出现在一起](https://leetcode-cn.com/problems/partition-labels/description/)
