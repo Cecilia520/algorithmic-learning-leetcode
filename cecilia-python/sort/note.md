@@ -26,3 +26,9 @@
 - - 若 `nums[curr] = 0` ：交换第 `curr`个 和 第`p0`个 元素，并将指针都向右移。
 - - 若 `nums[curr] = 2` ：交换第 `curr`个和第 `p2`个元素，并将 `p2`指针左移 。
 - - 若 `nums[curr] = 1` ：将指针`curr`右移。
+
+#### 常见排序小结
+
+针对常见排序方式的时间复杂度和空间复杂度如下：
+
+![](D:\documents\Codes\ML\algorithmic-learning-leetcode\cecilia-python\sort\sortlist.jpg)
