@@ -31,4 +31,4 @@
 
 针对常见排序方式的时间复杂度和空间复杂度如下：
 
-![](https://github.com/Cecilia520/algorithmic-learning-leetcode/blob/cecilia-python/cecilia-python/sort/sortlist.jpg)
+![image](https://github.com/Cecilia520/algorithmic-learning-leetcode/blob/cecilia-python/cecilia-python/sort/sortlist.jpg)
