@@ -29,3 +29,5 @@
     3. **合并**。根据运算符合并左右两边的解，得到最终整体问题的解。
 - [不同的二叉搜索树](https://leetcode-cn.com/problems/unique-binary-search-trees/)
 - [不同的二叉搜索树II](https://leetcode-cn.com/problems/unique-binary-search-trees-ii/description/)
+- - 思路
+    假设我们从1，2，3...n中取出i作为根节点，那么剩余的`i-1`个元素作为左子树，`n-i`个元素作为右子树。根据[前文描述](https://blog.csdn.net/Cecilia620/article/details/104398138)那样，这样会产生`G(i-1)`作为左子树，`G(n-i)`作为右子树，其中`G`是卡特兰数。
