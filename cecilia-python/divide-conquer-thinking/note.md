@@ -31,3 +31,33 @@
 - [不同的二叉搜索树II](https://leetcode-cn.com/problems/unique-binary-search-trees-ii/description/)
 - - 思路
     假设我们从1，2，3...n中取出i作为根节点，那么剩余的`i-1`个元素作为左子树，`n-i`个元素作为右子树。根据[前文描述](https://blog.csdn.net/Cecilia620/article/details/104398138)那样，这样会产生`G(i-1)`作为左子树，`G(n-i)`作为右子树，其中`G`是卡特兰数。
+- - 算法分析：
+- - - 1.时间复杂度：主要的计算开销在于构建给定根的全部可能树，也就是卡特兰数 G(n)。该过程重复了 n 次，也就是nGn。卡特兰数以 
+      $$
+      \frac{4^n}{n^{3/2}}
+      $$
+      增长。因此，总的时间复杂度为 
+      $$
+      O(\frac{4^n}{n^{1/2}})
+      $$
+      。最终要生成 
+      $$
+      G_n\sim\frac{4^n}{n^{3/2}}
+      $$
+      棵树的。
+
+- - - 空间复杂度：Gn棵树，每个有 n 个元素，共计 
+      $$
+      n G_n
+      $$
+
+       即：
+      $$
+      O(\frac{4^n}{n^{1/2}})
+      $$
+
+    > 作者：LeetCode
+    > 链接：https://leetcode-cn.com/problems/unique-binary-search-trees-ii/solution/bu-tong-de-er-cha-sou-suo-shu-ii-by-leetcode/
+    > 来源：力扣（LeetCode）
+    > 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+
