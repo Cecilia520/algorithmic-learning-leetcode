@@ -9,7 +9,7 @@
 - 二叉树一般情况即为平衡二叉树，最坏情况为有序链表
 - 平衡二叉树删除时需要从被删除节点的父节点开始调节平衡一直调节到根节点，时间复杂度`O(logN)`
 具体表一览如下：
-![]()
+![img](https://github.com/Cecilia520/algorithmic-learning-leetcode/blob/cecilia-python/cecilia-python/linkedlist/%E6%95%88%E7%8E%87%E8%A1%A8.png)
 #### 相关操作
 ##### 建立链表
 - **头插法**: 将元素插入链表头的后面
