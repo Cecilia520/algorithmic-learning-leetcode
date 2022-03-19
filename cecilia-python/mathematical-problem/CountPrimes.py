@@ -67,7 +67,53 @@ def countPrimes2(n) -> int:
             # print("isPrimes[i * i:n:i]:{}".format(isPrimes[i * i:n:i]))
     return sum(isPrimes)
 
+def countPrimeMi(n):
+    isPrime = [0 for _ in range(n)]
+    isPrime[0] = isPrime[1] = 1
+
+    def isPrimeMi(n):
+        for i in range(2, n):
+            if n % i == 0:
+                isPrime[i] = 0 # 是素数
+
+        # if isPrime[n] == -1:
+        #     isPrime[n] = 1
+        #     return True
+
+        for i in range(2, n):
+            if isPrime[n] == 1:
+                tmp = i
+                while tmp < n:
+                    if tmp == n:
+                        return True
+                    tmp *= i
+        return False
+    cnt = 0
+    for i in range(2,n):
+        if isPrimeMi(n):
+            cnt += 1
+    return cnt
+
+
+
+
+
 
 if __name__ == '__main__':
-    n = 10
-    print(countPrimes2(n))
+    # n = 10
+    # print(countPrimeMi(n))
+    # print(countPrimes2(n))
+
+    while True:
+        try:
+            x=3
+            f=5
+            d=100
+            p=10
+            output = x + p
+            total = f * p + d
+            print(int(total // output))
+            # dp = [0 for _ in range()]
+            exit(0)
+        except:
+            break

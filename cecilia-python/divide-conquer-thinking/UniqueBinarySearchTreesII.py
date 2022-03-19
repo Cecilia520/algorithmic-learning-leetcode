@@ -47,8 +47,14 @@ class Solution:
     def uniqueBinarySearchTreesII(self, n) -> List[TreeNode]:
         """
         构建多个二叉搜索树
+        思路分析：第一道题目是只需要输出总的种类数即可，但是在这道题目中，需要直接输出所有树的集合
+        总体思路：分别构建左子树和右子树，再以根节点将左右子树进行连接起来即可，其核心思维也是动态规划的思维。将整个问题分解成左右子树，最后进行合并。
+        1. 遍历数组，以i为根节点，分别递归计算左子树和右子树；
+        2. 分别遍历左右子树，以根节点i进行连接，并加入集合中；
+        3. 如果n不存在或者为0，返回空集合，否则返回集合
         :param n:
         :return:
+        算法分析：时间复杂度O(4^n/n^(1/2)),空间复杂度O(4^n/n^(1/2))
         """
 
         def generateTrees(start, end):
@@ -69,13 +75,13 @@ class Solution:
                 # 右子树节点
                 rightNodes = generateTrees(i + 1, end)
 
-            # 将左右子树根据root连接起来
-            for l in leftNodes:
-                for r in rightNodes:
-                    current_tree = TreeNode(i)
-                    current_tree.left = l
-                    current_tree.right = r
-                    allTrees.append(current_tree)
+                # 将左右子树根据root连接起来
+                for l in leftNodes:
+                    for r in rightNodes:
+                        current_tree = TreeNode(i)
+                        current_tree.left = l
+                        current_tree.right = r
+                        allTrees.append(current_tree)
             return allTrees
 
         return generateTrees(1, n) if n else []

@@ -43,4 +43,4 @@ def factorialTrailingZeroes(n):
     return count
 
 if __name__ == '__main__':
-    print(factorialTrailingZeroes(n=12))
+    print(factorialTrailingZeroes(n=10000))
