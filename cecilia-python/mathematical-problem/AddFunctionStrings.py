@@ -18,6 +18,8 @@ num1 和num2 都不包含任何前导零。
 你不能使用任何內建 BigInteger 库， 也不能直接将输入的字符串转换为整数形式。
 
 算法思路：双指针法
+
+可以应用于两个大数相乘
 """
 def addFunctionStrings(num1, num2):
     """
@@ -47,4 +49,4 @@ def addFunctionStrings(num1, num2):
     return "1" + result if carry else result
 
 if __name__ == '__main__':
-    print(addFunctionStrings(num1="51189", num2="967895"))
+    print(addFunctionStrings(num1="5112111111111133489", num2="96732422222333333895"))
